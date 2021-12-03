@@ -20,7 +20,7 @@ class Home extends React.Component{
             return(
                 <div>
                     <h1 className="text-center">Emp list</h1>
-                    <table className="table table-striped">
+                    <table className="table table-striped table-bordered table-hover">
                         <thead>
                             <tr>
                                 <td>ID</td>
@@ -39,6 +39,8 @@ class Home extends React.Component{
                                         <td>{user.name}</td>
                                         <td>{user.age}</td>
                                         <td>{user.department.name}</td>
+
+                                        <td><button>click</button></td>
                                    
 
                                     </tr>
