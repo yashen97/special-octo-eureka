@@ -19,13 +19,14 @@ class Home extends React.Component{
         render(){
             return(
                 <div>
+                    <h1 className="text-center">Emp list</h1>
                     <table className="table table-striped">
                         <thead>
                             <tr>
                                 <td>ID</td>
                                 <td>Name</td>
                                 <td>Age</td>
-                                <td>Dept</td>
+                                <td>department</td>
                             </tr>
                         </thead>
 
